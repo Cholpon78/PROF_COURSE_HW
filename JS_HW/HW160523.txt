@@ -1,0 +1,29 @@
+
+К задаче prompt добавить валидацию на "invalid value"
+Ex: input: "g65f4n56f4g5nfgn"  // invalid value
+
+
+const a = prompt('Enter first name: ')
+
+if(typeof (a * 1) === "number" && !isNaN(a * 2) && a !== "") {
+  console.log('number');
+} else if(a === "null") {
+  console.log("null");
+} else if(a === "undefined") {
+  console.log("undefined");
+} else if(a === "false" || a === "true") {
+  console.log("false or true");
+} else if(a === "") {
+  console.log('empty string');
+
+
+} else if (!isNaN(parseFloat(a))) { 
+  console.log("invalid value");
+
+
+} else {
+  console.log("string");
+}
+
+Но в этом решении если поставить знаки \! и тд выдает string
+

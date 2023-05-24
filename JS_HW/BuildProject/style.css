@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+/* Блок № 1 */
+.counter-title {
+  background-image: url(./assets/images/fonCount.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.counter-title h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 6% 22% 0.5% 22%;
+}
+
+.counter-title h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.jear-counter {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap;  */
+  /* margin: 0 21%; */
+  background-color: #ffffff;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* padding: 11% 20% 11% 20%; */
+  gap: 80px;
+}
+
+.info-number {
+  font-family: "Oswald";
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 107px;
+  text-align: center;
+  color: #f7654a;
+}
+
+.info-year {
+  font-family: "Oswald";
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
+}
+
+.info-txt {
+  font-family: "Oswald";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #999999;
+}
+
+/* БЛОК №2 */
+
+.big-projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* width: 70%; */
+}
+
+.project-title {
+  margin: 10% 0 5%;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #404149;
+}
+
+.project-blocks {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project-block {
+  min-width: 240px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.line {
+  height: 6px;
+  width: 16%;
+  background-color: orangered;
+}
+
+.project-name {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #404149;
+  text-decoration: none;
+}
+
+.project-txt {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999999;
+  text-decoration: none;
+}
+
+.smart-projects {
+  width: 100%;
+  margin-top: 5%;
+  padding: 2%;
+  background-color: #f7654a;
+  display: flex;
+  justify-content: center;
+}
+
+.smart-blocks {
+  width: 1110px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.smart-title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  color: #ffffff;
+}
+
+.smart-txt {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.smart-bnt {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding: 15px 45px;
+}
+
+/* БЛОК № 3 */
+.what-we-done {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 2%;
+ flex-wrap: wrap;
+}
+
+.done-title {
+  font-family: Oswald;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  margin: 3%;
+}
+
+.done-main-block {
+  width: 1110px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.done-link {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #e7e3e3;
+  padding: 7%;
+}
+
+.done-link:hover{
+  background-color: #555555;
+}
+
+.done-txt {
+  font-family: Oswald;
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.contacts {
+  display: flex;
+ justify-content: space-between;
+  width: 1110px;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.contact {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ 
+.contact-title {
+  color: #404149;
+  padding: 15%;
+  font-size: 24px;
+}
+
+.contact-txt {
+font-family: Oswald;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+text-decoration: none;
+}
+
+.contact-email {
+color: #f7654a;
+font-family: Oswald;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+text-decoration: none;
+
+}
+.bottom {
+display: flex;
+justify-content: center;
+  background-color: #404149;
+  /* align-items: center; */
+  margin-top: 2%;
+}
+.bottom-txt {
+  width: 1110px; 
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 0;
+  color: #ffffff;
+}
