@@ -1,0 +1,12 @@
+
+const info = ["item", "logo", "lift", "icon", "ice", "let"];
+
+let prefix = info.map ((el) => {
+  if (el[0] === 'i') {
+    return 'i' + el;
+  } else {
+       return 'l'+ el;
+        }
+});
+
+console.log (prefix);
