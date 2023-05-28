@@ -1,37 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="top-header">
-            <img src="./assets/logoCloud.png" alt="">
-            <a href="https://developer.salesforce.com/">Salesforce Developers / Heroku</a>
+      <div class="page">
+        <img src="./assets/logoCloud.png" alt="" />
+        <a href="https://developer.salesforce.com/"
+          >Salesforce Developers / Heroku</a
+        >
+      </div>
+
+      <div class="wrapper-full">
+        <div class="logo">
+          <a class="main-logo" href="https://www.heroku.com/home"
+            ><img class="heroku-logo" src="./assets/logoHeroku.svg" alt=""
+          /></a>
         </div>
-        <div class="all-header">
-            <div class="main-header">
-                <div class="dropdown">
-                    <button class="dropbtn">Наведите курсор</button>
-                    <div class="dropdown-content">
-                      <div><a href="#"><img src="./assets/logoHerokuPlatform.png" alt=""> Heroku Platform   > </a></div>
-                      <div><a href="#"><img src="./assets/logoHerokuPlatform.png" alt=""> Heroku Platform   > </a></div>
-                      <div><a href="#"><img src="./assets/logoHerokuPlatform.png" alt=""> Heroku Platform   > </a></div>
-                    </div>
-                  </div>
+        <section class="in-nav">
+          <div class="nav-wrapper">
+            <div class="nav-blocks">
+              <a class="nav-text" href="URL">Products</a>
+              <!-- This divs doest`n work. Hover does not apply -->
+              <!-- <div class="drodown">
+              <ul class="">
+                <a class="has-dropdown" href="https://www.heroku.com/platform"
+                  ><img src="./assets/logoHerokuPlatform.png" alt="" /> Heroku
+                  Platform</a>
+                  <li>Heroku DS</li>
+                  <li>Heroku OpX</li>
+              </ul>
+              <ul class="main-dropdown">
+                <a class="has-dropdown" href="https://www.heroku.com/platform"
+                  ><img src="./assets/logoHerokuPlatform.png" alt="" /> Heroku
+                  Data Service</a
+                >
+              </ul>
+            </div> -->
             </div>
+            <div class="nav-blocks">
+              <a class="nav-text" href="URL">Marketplace</a>
+              <!-- <div class="dropdown">
+              <ul class="main-dropdown">
+                <a class="has-dropdown" href="https://www.heroku.com/platform"
+                  ><img src="./assets/logoHerokuPlatform.png" alt="" /> Heroku
+                  Platform</a>
+                  <li>Heroku DS</li>
+                  <li>Heroku OpX</li>
+              </ul>
+              <ul class="">
+                <a class="has-dropdown" href="https://www.heroku.com/platform"
+                  ><img src="./assets/logoHerokuPlatform.png" alt="" /> Heroku
+                  Data Service</a>
+              </ul>
+            </div> -->
+            </div>
+            <div class="nav-blocks">
+              <a class="nav-text" href="URL">Pricing</a>
+            </div>
+            <div class="nav-blocks">
+              <a class="nav-text" href="URL">Documentation</a>
+            </div>
+            <div class="nav-blocks">
+              <a class="nav-text" href="URL">Support</a>
+            </div>
+            <div class="nav-blocks">
+              <a class="nav-text" href="URL">More</a>
+              <!-- <div class="dropdown">
+              <ul class="">
+                <a class="has-dropdown" href="https://www.heroku.com/platform"
+                  ><img src="./assets/logoHerokuPlatform.png" alt="" /> Heroku
+                  Platform</a
+                >
+              </ul>
+              <ul class="">
+                <a class="has-dropdown" href="https://www.heroku.com/platform"
+                  ><img src="./assets/logoHerokuPlatform.png" alt="" /> Heroku
+                  Data Service</a
+                >
+              </ul>
+            </div> -->
+            </div>
+          </div>
 
+          <div class="nav-seach">
+            <ul class="tool-nav">
+              <li class="search">
+                <form
+                  action="/search/buildpacks"
+                  class=""
+                  id="site-search"
+                  method="get"
+                >
+                  <div class="">
+                    <input
+                      type="text"
+                      spellcheck="false"
+                      autocomplete="off"
+                      name="q"
+                      title="search"
+                      placeholder="Search Elements"
+                    />
+                    <button
+                      type="submit"
+                      value="Submit search"
+                      class="search-submit"
+                    ></button>
+                  </div>
+                </form>
+              </li>
+
+              <li class="">
+                <a href="/login">Log in</a>
+                <span>or</span>
+                <a class="" href="https://signup.heroku.com">Sign up</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="header-name">
+          <img src="./assets/logoBuildPack.png" alt="" />
+          <h1>Heroku Buildpacks</h1>
+          <p>
+            Buildpacks automate the build processes for your preferred languages
+            and frameworks.
+          </p>
         </div>
+      </div>
     </header>
-</body>
-
+  </body>
 </html>
