@@ -20,20 +20,21 @@ body {
   align-items: center;
   gap: 2%;
 }
-
 .page img {
   width: 50px;
 }
-
 .page a {
   color: #000;
   text-decoration: none;
   font-family: "Open Sans";
 }
 
+
+
+
 .wrapper-full {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: column;
   background-color: #3b2f63;
   background-image: radial-gradient(circle at 50% top,
@@ -41,21 +42,19 @@ body {
       rgba(84, 90, 182, 0) 75%),
     radial-gradient(circle at right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
   width: 100%;
-  gap: 6%;
   padding: 3%;
 }
 
 .main-nav {
   display: flex;
 align-items: center;
-/* justify-content: center; */
-/* flex-wrap: wrap; */
+justify-content: center;
+flex-wrap: wrap;
 
 }
 
 .logo {
-  width: 10%;
-  height: 10%;
+ 
   fill: azure;
   margin-right: 3%;
 }
@@ -68,8 +67,7 @@ align-items: center;
 .nav-wrapper {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 3%;
+   gap: 3%;
   margin-left: 2%;
   
   /* I aplly wrap wrap why nav-text stand on 2 lines */
@@ -89,7 +87,7 @@ align-items: center;
 }
 
 .header-name {
-  max-width: 1160px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,13 +113,22 @@ align-items: center;
   background: rgba(255, 255, 255, 0.1) !important;
 }
 
+main {
+  max-width: 1160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .page-subnav {
-max-width: 1160px;
- display: flex;
+
+  background-color: azure;
+
+}
+.ad-once {
+  
+  display: flex;
  justify-content: center;
- align-items: center;
- gap: 3%;
- 
+  align-items: center;
 }
 
 .page-subnav a{
@@ -131,7 +138,6 @@ max-width: 1160px;
   padding: 2%;
 }
 .Officially-Supported-Buildpacks {
-  max-width: 1160px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -140,8 +146,9 @@ max-width: 1160px;
 
 .line {
   width: 100%;
-  height: 10px;
-  color: rgb(82, 11, 11);
+  height: 2px;
+  background-color: rgb(180, 173, 173);
+  margin-bottom: 2%;
 
 }
 .category-label {

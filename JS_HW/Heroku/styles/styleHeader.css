@@ -1,0 +1,151 @@
+.page {
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.page img {
+  width: 50px;
+}
+.page a {
+  color: #000;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.wrapper-full {
+  background-color: #3b2f63;
+  background-image: radial-gradient(
+      circle at 50% top,
+      rgba(84, 90, 182, 0.6) 0%,
+      rgba(84, 90, 182, 0) 75%
+    ),
+    radial-gradient(circle at right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
+}
+.heroku-logo {
+  max-width: 120%;
+ }
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  flex-wrap: wrap;
+  /* position: fixed;
+  top: 10%;
+  left: 2%; */
+}
+.nav-text {
+  color: rgb(140, 106, 194);
+}
+.nav-wrapper {
+  display: flex;
+  gap: 3%;
+  align-items: center;
+  font-size: 120%;
+
+}
+.nav-text {
+  position: relative;
+  z-index: 0;
+}
+/* Dont working */
+.heroku-platform {
+  position: absolute;
+  background: #fff;
+  border-radius: 4px;
+  z-index: 3;
+  padding: 8px 16px;
+  padding-right: 0;
+  overflow: visible;
+  box-shadow: 0 2px 7px rgba(17, 17, 17, 0.175);
+  display: none;
+}
+.heroku-platform:hover {
+  display: block;
+}
+.nav-seach {
+  margin-left: 10%;
+ }
+ .nav-seach a{
+  color: rgb(140, 106, 194);
+ }
+ 
+.nav-seach input {
+  background-color: #794aa2;
+  width: 150px !important;
+  padding: 7px 28px 7px 10px !important;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.nav-seach input::placeholder {
+  color: white;
+}
+.search-icon {
+  background-image: url(../assets/searchengin.svg);
+}
+.bars {
+  display: none;
+}
+
+.header-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-inner h1 {
+  padding: 5% 0;
+}
+.header-inner h4 {
+  padding: 5% 0 20% 0;
+}
+.header-inner img {
+  width: 15%;
+  filter: invert(100%);
+}
+.header-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.add-onses {
+  display: flex;
+  gap: 5%;
+  margin: 1% 0 1% 1%;
+}
+.add-ons a {
+  color: gray;
+  transition: color 1s ease;
+}
+.add-ons:hover a {
+  color: red;
+  font-weight: bold;
+  transform: scale(1.2);
+}
+.add-ons img {
+  width: 15%;
+  margin-right: 10px;
+}
+.add-ons {
+  display: flex;
+  align-items: center;
+ }
+.add-line {
+  border-bottom: 3px solid black;
+ 
+}
+
+.add-ons1 {
+  color: rgb(56, 53, 66)128, 128, 128;
+  font-weight: bold;
+}

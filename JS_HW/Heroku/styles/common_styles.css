@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    text-decoration: none;
+
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: gainsboro;
+  }
+  h1 {
+    font-size: 36px;
+    color: #b5a4f1;
+      }
+  h4 {
+      font-size: 18px;
+      color: #b5a4f1;
+    }
+h3 {
+    font-size: 12px;
+}

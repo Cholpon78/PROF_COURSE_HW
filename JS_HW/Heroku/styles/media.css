@@ -1,0 +1,19 @@
+@media screen and (max-width: 1100px) {
+    .nav-wrapper {
+        display: none;
+    }
+.nav-seach {
+    display: none;
+}
+.bars {
+    display: block;
+}
+
+  }
+
+  @media screen and (max-width: 700px) {
+.add-onses {
+    display: none;
+}
+
+  }
