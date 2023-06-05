@@ -13,11 +13,11 @@
 
 
 #custom-list {
-    color: blue;    /* Цвет текста списка */
-    font-size: 16px; /* Размер шрифта списка */
+    color: blue;    
+    font-size: 16px; 
   }
   
 #custom-list li {
-    margin-bottom: 5px; /* Отступ между элементами списка */
+    margin-bottom: 5px; 
 }
   
