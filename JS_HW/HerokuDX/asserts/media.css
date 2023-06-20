@@ -1,0 +1,41 @@
+@media screen and (max-width: 1200px) {
+    
+    .nav-wrapper {
+       display: none; 
+    }
+    .nav-seach{
+        display: none; 
+    }
+    .bars {
+             display: block;
+       }
+     
+}
+.main-1{
+    background: #F4F4F4;
+    text-align: center;
+}
+.discription{
+    padding: 70px 20px 56px 20px;
+    margin: 0 10%;
+}
+.discription h2{
+    color: rgb(31, 79, 211);
+    margin-bottom: 20px;
+}
+.discription-txt p{
+    font-size: 20px;
+    line-height: 1.65;
+    color: #323839;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+.main-2 {
+    flex-direction: column-reverse;
+}
+.main-3{
+    flex-direction: column;
+}
+}
